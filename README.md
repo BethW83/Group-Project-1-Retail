@@ -1,17 +1,27 @@
 # Online Retail Transaction Analysis
 
+**Online Retail Transaction Analysis** is a comprehensive data analysis tool to provide insights through interactive dashboards: to analyse customer behaviour, optimise pricing and marketing strategies and identify popular products.
+
 Team Members:
 - Beth Williams
 - Pete Smith
 - Tom Burgess
 
-**Online Retail Transaction Analysis** is a comprehensive data analysis tool to provide insights through interactive dashboards: to analyse customer behaviour, optimise pricing and marketing strategies and identify popular products.
 
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 ## Dataset Content
 
--   Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size of 100Gb.
+The dataset contains information on customer transactions made through an online retail platform. It includes the following columns:
+
+- **InvoiceNo:** Transaction number
+- **StockCode:** Product number
+- **Description:** Product name
+- **Quantity:** Quantity sold (negative for cancelled orders)
+- **InvoiceDate:** Date and time of transaction
+- **UnitPrice:** Price of one unit of the item
+- **CustomerID:** Unique customer identifier
+- **Country:** Customer location
 
 ## Business Requirements
 
@@ -19,7 +29,11 @@ Team Members:
 
 ## Hypothesis and how to validate?
 
--   List here your project hypothesis(es) and how you envision validating it (them)
+-   General Sales trends/Descriptive Stats: Tom
+-   Customer behaviour patterns: Pete
+-   Products: Beth: The top 10 products provide the most revenue
+-   (Geographic)
+
 
 ## Project Plan
 
