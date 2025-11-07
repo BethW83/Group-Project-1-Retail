@@ -1,4 +1,62 @@
-# Online Retail Transaction Analysis
+<p align="center">
+ <img width="100%" src="./images/market-maverick-logo.png " align="center" alt="Project banner" />
+ <h1 align="center">Online Retail Transaction Analysis</h1>
+ <p align="center">Analysing data and producing PowerBI dashboard visualisations</p>
+</p>
+
+<p align="center">
+  <br/>
+  <a href="https://www.python.org/" title="Python official website">
+    <img alt="Python Logo" height="30px" src="./images/python-logo.png" />
+  </a>
+  <a href="https://pandas.pydata.org/" title="Pandas official wesbite">
+    <img alt="Pandas Logo" height="30px" src="./images/pandas-logo.png" />
+  </a>
+   <a href="https://matplotlib.org/stable/" title="Matplotlib offical website">
+    <img alt="Matplotlib Logo" height="30px" src="./images/matplotlib-logo.png" />
+  </a>
+  <a href="https://seaborn.pydata.org/" title="Seaborn offical website">
+    <img alt="Seaborn Logo" height="30px" src="./images/seaborn-logo.png" />
+  </a>
+  <a href="https://www.microsoft.com/en-us/power-platform/products/power-bi" title="PowerBI offical website">
+    <img alt="PowerBI Logo" height="30px" src="./images/powerbi-logo.png" />
+  </a>
+  <a href="https://www.kaggle.com/" title="Kaggle offical website">
+    <img alt="Kaggle Logo" height="30px" src="./images/kaggle-logo.png" />
+  </a>
+  <br />
+</p>
+
+<p align="center">
+  <a href="https://github.com/users/BethW83/projects/3">Project Board</a>
+  &nbsp;&nbsp;-&nbsp;&nbsp;
+  <a href="./jupyter_notebooks/data_clean_EDA.ipynb">Data Cleanup & EDA</a>
+  &nbsp;&nbsp;-&nbsp;&nbsp;
+  <a href="#conclusions">Conclusions</a>
+  <br/><br/><br/>
+</p>
+
+<details>
+<summary>Table of contents (Click to show)</summary>
+
+- [Dataset Content](#dataset-content)
+- [Business Requirements](#business-requirements)
+- [Hypothesis](#hypothesis)
+- [Project Plan](#project-plan)
+- [The rationale to map the business requirements to the Data Visualisations](#the-rationale-to-map-the-business-requirements-to-the-data-visualisations)
+- [Analysis techniques used](#analysis-techniques-used)
+- [Ethical considerations](#ethical-considerations)
+- [Unfixed Bugs](#unfixed-bugs)
+- [Development Roadmap](#development-roadmap)
+- [Conclusions](#conclusions)
+- [Main Data Analysis Libraries](#main-data-analysis-libraries)
+- [Credits](#credits)
+  - [Content](#content)
+  - [Media](#media)
+- [Acknowledgements](#acknowledgements)
+
+</details>
+
 
 **Online Retail Transaction Analysis** is a comprehensive data analysis tool to provide insights through interactive dashboards: to analyse customer behaviour, optimise pricing and marketing strategies and identify popular products.
 
