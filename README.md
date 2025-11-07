@@ -96,6 +96,6 @@
 -   The photos used on the home and sign-up page are from This Open-Source site
 -   The images used for the gallery page were taken from this other open-source site
 
-## Acknowledgements (optional)
+## Acknowledgements
 
 -   Thank you to our tutor Emma Lamont and data coaches Spencer Bariball and Mark Briscoe for their ongoing help and support. Thank you also to our fellow bootcampers for their ongoing help and support.
