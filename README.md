@@ -45,6 +45,11 @@
 -   How were data insights communicated to technical and non-technical audiences?
 -   Explain how the dashboard was designed to communicate complex data insights to different audiences.
 
+## Conclusions
+
+-
+-
+
 ## Unfixed Bugs
 
 -   Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
@@ -93,4 +98,4 @@
 
 ## Acknowledgements (optional)
 
--   Thank the people who provided support through this project.
+-   Thank you to our tutor Emma Lamont and data coaches Spencer Bariball and Mark Briscoe for their ongoing help and support. Thank you also to our fellow bootcampers for their ongoing help and support.
