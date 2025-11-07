@@ -1,6 +1,11 @@
-# Project XYZ
+# Online Retail Transaction Analysis
 
-**Project XYZ** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
+Team Members:
+- Beth Williams
+- Pete Smith
+- Tom Burgess
+
+**Online Retail Transaction Analysis** is a comprehensive data analysis tool to provide insights through interactive dashboards: to analyse customer behaviour, optimise pricing and marketing strategies and identify popular products.
 
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
