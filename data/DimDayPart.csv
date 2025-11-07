@@ -1,0 +1,7 @@
+daypart,StartHour,EndHour,HoursInBin
+Night,0,6,6
+Morning,6,11,5
+Lunch,11,14,3
+Afternoon,14,17,3
+Evening,17,21,4
+Late,21,24,3
