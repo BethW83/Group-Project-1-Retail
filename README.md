@@ -37,6 +37,8 @@ The dataset contains information on customer transactions made through an online
 
 ## Project Plan
 
+-   ?Mention that Saturdays are missing. Perhaps the company providing the online transactions did not want to provide the Saturday data as this is their busiest day and competitors would be most interested in this?
+
 -   Outline the high-level steps taken for the analysis.
 -   How was the data managed throughout the collection, processing, analysis and interpretation steps?
 -   Why did you choose the research methodologies you used?
@@ -53,6 +55,8 @@ The dataset contains information on customer transactions made through an online
 -   How did you use generative AI tools to help with ideation, design thinking and code optimisation?
 
 ## Ethical considerations
+
+-   The Customer ID was anonymised. 
 
 -   Were there any data privacy, bias or fairness issues with the data?
 -   How did you overcome any legal or societal issues?
@@ -72,37 +76,39 @@ The dataset contains information on customer transactions made through an online
 ## Unfixed Bugs
 
 -   Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
--   Did you recognise gaps in your knowledge, and how did you address them?
--   If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
+
 
 ## Development Roadmap
 
+-   Power BI: sharing files, learning about relative paths
+-   (if we need something else here, include updating the requirements.txt file?)
+
 -   What challenges did you face, and what strategies were used to overcome these challenges?
 -   What new skills or tools do you plan to learn next based on your project experience?
+-   Did you recognise gaps in your knowledge, and how did you address them?
+-   If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
+
 
 ## Deployment
 
-### Heroku
 
--   The App live link is: https://YOUR_APP_NAME.herokuapp.com/
--   Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
--   The project was deployed to Heroku using the following steps.
-
-1. Log in to Heroku and create an App
-2. From the Deploy tab, select GitHub as the deployment method.
-3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-6. If the slug size is too large then add large files not required for the app to the .slugignore file.
 
 ## Main Data Analysis Libraries
 
--   Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
+-   Pandas
+-   Numpy
+-   Seaborn
+-   Plotly
+-   Matplotlib
 
 ## Credits
 
--   In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
--   You can break the credits section up into Content and Media, depending on what you have included in your project.
+-   Code Institute https://learn.codeinstitute.net/
+-   GitHub https://github.com/Code-Institute-Org/data-analytics-template and https://github.com/5pence/sept-2025-da and https://github.com/mbriscoe/MatplotlibDemo
+-   Copilot in VSCode to help with generating code and formatting
+-   Chatgpt for general coding queries and fixing some errors
+-   Kaggle data https://www.kaggle.com/datasets/abhishekrp1517/online-retail-transactions-dataset/data
+
 
 ### Content
 
