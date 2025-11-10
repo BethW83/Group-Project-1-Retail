@@ -95,7 +95,9 @@ The dataset contains information on customer transactions made through an online
 
 ## Project Plan
 
--   ?Mention that Saturdays are missing. Perhaps the company providing the online transactions did not want to provide the Saturday data as this is their busiest day and competitors would be most interested in this?
+-   Mention that Saturdays are missing. Perhaps the company providing the online transactions did not want to provide the Saturday data as this is their busiest day and competitors would be most interested in this?
+
+-   Second December, data goes up until 08/12/2011. Add date slicers in Power BI rather than deleting data. 
 
 -   Outline the high-level steps taken for the analysis.
 -   How was the data managed throughout the collection, processing, analysis and interpretation steps?
@@ -115,6 +117,7 @@ The dataset contains information on customer transactions made through an online
 ## Ethical considerations
 
 -   The Customer ID was anonymised. 
+-   The data is available publicly on Kaggle and (Tom insert link here)
 
 -   Were there any data privacy, bias or fairness issues with the data?
 -   How did you overcome any legal or societal issues?
@@ -138,7 +141,9 @@ The dataset contains information on customer transactions made through an online
 
 ## Development Roadmap
 
--   Power BI: sharing files, learning about relative paths
+-   Power BI: sharing files (Pete include a quick summary here?)
+-   Power BI: finding a map that we could use to include within our dashboards. Some maps were blocked due to organisation policies. 
+
 -   (if we need something else here, include updating the requirements.txt file?)
 
 -   What challenges did you face, and what strategies were used to overcome these challenges?
