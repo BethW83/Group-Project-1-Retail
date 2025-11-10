@@ -413,23 +413,23 @@ TODO: Add here!
 
 ## Credits
 
--   Code Institute https://learn.codeinstitute.net/
--   GitHub https://github.com/Code-Institute-Org/data-analytics-template and https://github.com/5pence/sept-2025-da and https://github.com/mbriscoe/MatplotlibDemo
--   Copilot in VSCode to help with generating code and formatting
--   Chatgpt for general coding queries and fixing some errors
--   Kaggle data https://www.kaggle.com/datasets/abhishekrp1517/online-retail-transactions-dataset/data
-
-
 ### Content
 
--   The text for the Home page was taken from Wikipedia Article A
--   Instructions on how to implement form validation on the Sign-Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
--   The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- [Code institute](https://codeinstitute.net/) - The intial project structure.
+- [Kaggle](https://www.kaggle.com/) - Providing the data set used.
+- [Machine Learning Repository](https://archive.ics.uci.edu/dataset/352/online+retail) - More info on the dataset that explained the 'C' - Cancelled invoices.
+- [ChatGPT](https://chatgpt.com/) - Help overcoming Git issues.
+- [SimpleSteps.guide](https://simplesteps.guide/guides/technology/machine-learning-ai) - Notes recorded from the Code Institute course.
 
 ### Media
 
--   The photos used on the home and sign-up page are from This Open-Source site
--   The images used for the gallery page were taken from this other open-source site
+- [Code Institute](https://codeinstitute.net/) - Code Institute logo.
+- [Python](https://www.python.org/) - Python logo image.
+- [Pandas](https://pandas.pydata.org/) - Pandas logo image.
+- [Matplotlib](https://matplotlib.org/) - Matplotlib logo image.
+- [Seaborn](https://seaborn.pydata.org/) - Seaborn logo image.
+- [Power BI](https://app.powerbi.com/) - Power BI logo image.
+- [Kaggle](https://www.kaggle.com/) - Kaggle logo image.
 
 ## Acknowledgements
 
