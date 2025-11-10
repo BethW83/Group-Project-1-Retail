@@ -33,6 +33,8 @@
   <a href="./jupyter_notebooks/data_clean_EDA.ipynb">Data Cleanup & EDA</a>
   &nbsp;&nbsp;-&nbsp;&nbsp;
   <a href="#conclusions">Conclusions</a>
+ &nbsp;&nbsp;-&nbsp;&nbsp;
+  <a href="#1-descriptive-statistics-and-trend-analysis">Dashboards</a>
   <br/><br/><br/>
 </p>
 
