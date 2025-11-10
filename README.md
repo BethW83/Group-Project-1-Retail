@@ -153,14 +153,14 @@ Team Members:
 
 The dataset contains information on customer transactions made through an online retail platform. It includes the following columns:
 
-- `**InvoiceNo:**` - Transaction number
-- `**StockCode:**` - Product number
-- `**Description:**` - Product name
-- `**Quantity:**` - Quantity sold (negative for cancelled orders)
-- `**InvoiceDate:**` - Date and time of transaction
-- `**UnitPrice:**` - Price of one unit of the item
-- `**CustomerID:**` - Unique customer identifier
-- `**Country:**` - Customer location
+- `InvoiceNo:` - Transaction number
+- `StockCode:` - Product number
+- `Description:` - Product name
+- `Quantity:` - Quantity sold (negative for cancelled orders)
+- `InvoiceDate:` - Date and time of transaction
+- `UnitPrice:` - Price of one unit of the item
+- `CustomerID:` - Unique customer identifier
+- `Country:` - Customer location
 
 ## Business Requirements
 
