@@ -181,14 +181,15 @@ Analyse online retail transaction data to understand customer behaviour, identif
 
 ## Project Plan
 
-- TODO
--   Mention that Saturdays are missing. Perhaps the company providing the online transactions did not want to provide the Saturday data as this is their busiest day and competitors would be most interested in this?
+The prjoject follows the following steps:
 
--   Second December, data goes up until 08/12/2011. Add date slicers in Power BI rather than deleting data. 
-
--   Outline the high-level steps taken for the analysis.
--   How was the data managed throughout the collection, processing, analysis and interpretation steps?
--   Why did you choose the research methodologies you used?
+1. `Extract` - Extract the data from Kaggle.
+2. `Load` - Load the CSV via Pandas.
+3. `Transform` - Clean and process the data using Pandas, adding new columns and checking for missing or duplicated values.
+4. `Visualise` - Creating charts with Matplotlib and Seaborn to visualise the data and check for outliers.
+6. `Dashboard` - Create a Power BI dashboard to interogate the data.
+6. `Analyse` - Interpret what the dashboard visualisations displayed.
+7. `Document` - Record findings and conclusions.
 
 ## The rationale to map the business requirements to the Data Visualisations
 
@@ -421,6 +422,8 @@ Challenges faced:
 - The main map visualisation options in Power BI were not enabled for our organisation, so we used the Azure map visualisation option instead for mapping.
 - Initially the order of the day parts in the visualisations were not in the correct order, showing lunch, then evening and then morning. We over came this by ading an extra sort column to the day part table and sorting the daypart field by this new order column.
 - We had a few issues with Git getting out of sync and not allowing a team member to switch branch or merge from main. We overcame this as a team, sharing screens and helping each other through the process.
+- There was no data recorded at all for Saturday.
+- The last month of the data was only a few days in December 2011, so the charts all dipped down at the end when reporting by month as it didn't have a comparable full month of data. We added date sliders to allow users to easily exclude the end few days if required.
 
 Next steps:
 - We decided to drop the cancelled invocies that were marked with a C. We would look to import these as a new fact table and create visualisations for these and analyse the data.
