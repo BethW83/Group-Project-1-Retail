@@ -474,7 +474,11 @@ Once imported, it looked like:
     -   It is immediately clear that the majority of the sales come from the UK. The second dashboard shows the top 20 countries for the quantity of products, with the remaining 18 countries making up the rest of the stock sold. 
 
 
-TODO: Give an overall summary here too
+**Overall Conclusion**
+
+The online retail data analysis highlights clear seasonal and behavioural trends in customer purchasing. Sales fluctuate through the year 2011, suggesting potential seasonality that would 
+require a larger, multi-year dataset to confirm. Most orders occur at lunchtime, especially midweek, while Sundays show consistently lower activity with no evening sales. Over 91% of orders come from UK customers, indicating a largely domestic market. A small number of highly active customers, likely wholesalers, place many repeat orders, suggesting value in segmenting customers by type. Overall, the findings offer strong insight into sales trends, customer behaviour, and product seasonality.
+
 
 ## Unfixed Bugs
 
