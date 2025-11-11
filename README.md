@@ -96,9 +96,9 @@ git clone https://github.com/BethW83/Group-Project-1-Retail.git
 cd Group-Project-1-Retail
 ```
 
-#### Setup a virtual enviroment:
+#### Setup a virtual environment:
 
-Create a virtual enviroment for the project.
+Create a virtual environment for the project.
 
 Linux / Mac:
 
@@ -121,9 +121,9 @@ python3 -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
 
-#### Install the dependancies:
+#### Install the dependencies:
 
-This will install all the dependancies needed for the project in to the virtual enviroment if it is setup, rather than globally
+This will install all the dependencies needed for the project in to the virtual environment if it is setup, rather than globally
 
 ```
 pip install -r requirements.txt
@@ -131,8 +131,8 @@ pip install -r requirements.txt
 
 #### Select the Kernel
 
-There is a drop down at the top of the notebooks to select your kernal that will run the Python.
-If you setup a virtual enviroment then make sure you pick the venv one.
+There is a drop down at the top of the notebooks to select your kernel that will run the Python.
+If you setup a virtual environment then make sure you pick the venv one.
 
 ---
 
@@ -176,17 +176,17 @@ Analyse online retail transaction data to understand customer behaviour, identif
 -   Sunday has less orders than the rest of the week
 -   Majority of the orders are made by UK customers
 -   Customers make return and make multiple orders
--   TODO: Products: Beth: The top 10 products provide the most revenue
+-   A small number of products account for the largest sales and quantities sold.
 
 ## Project Plan
 
-The prjoject follows the following steps:
+The project follows the following steps:
 
 1. `Extract` - Extract the data from Kaggle.
 2. `Load` - Load the CSV via Pandas.
 3. `Transform` - Clean and process the data using Pandas, adding new columns and checking for missing or duplicated values.
 4. `Visualise` - Creating charts with Matplotlib and Seaborn to visualise the data and check for outliers.
-5. `Dashboard` - Create a Power BI dashboard to interogate the data.
+5. `Dashboard` - Create a Power BI dashboard to interrogate the data.
 6. `Analyse` - Interpret what the dashboard visualisations displayed.
 7. `Document` - Record findings and conclusions.
 
@@ -206,7 +206,14 @@ The prjoject follows the following steps:
     -   Use a visual map to display the customers location.
 -   Customers make return and make multiple orders
     -   Use a bar chart to show the frequency of orders grouped by customer.
--   TODO: Products: Beth: The top 10 products provide the most revenue
+
+-   Products Analysis: 
+    -   Page 1: Display the top 10 products in bar charts by total sales and by total quantities. 
+    -   Use filters to enable the following options to be  chosen: date range, month, continent and country. 
+    -   Use tooltips to provide further information. 
+    -   Page 2: Display the product quantities sold by country using a treemap. 
+    -   Use a tooltip to show total sales when hovering over the country. 
+
 
 ## Analysis techniques used
 
@@ -459,7 +466,13 @@ Once imported, it looked like:
     -   16,585 of the 18,183 orders (91.21%) of orders were to UK based customers.
 -   Customers make return and make multiple orders
     -   One customer made 1,358 separate orders with an average return days between purchases of 1.4 days. There were 3 other customers with over 100 orders and another 28 with over 30 orders. When you look at some of the customers with higher return rate, and what they purchase, it very much looks like they are buying products as a wholesaler rather than as an individual. As a future enhancement it would be useful to try and categorise customers in to wholesale and individuals to see how their buying patterns differ.
--   TODO: Products: Beth: The top 10 products provide the most revenue
+
+-   Product Analysis: 
+   -   The filters to the right of the dashboard can be used to show the top 10 products per month. This provides insights into the type of products purchased seasonally. For example bunting is popular in the summer months and as the weather cools more night lights and hot water bottles are sold.
+   -   There are 3609 unique products (by stock code), with the bottom 5 products only selling once.
+   -   The date range can be set to go up to and including 30/11/2011 to ensure that one year’s data is showing (to avoid two Decembers, where the second December only has data for 8 days).
+   -   It is immediately clear that the majority of the sales come from the UK. The second dashboard shows the top 20 countries for the quantity of products, with the remaining 18 countries making up the rest of the stock sold. 
+
 
 TODO: Give an overall summary here too
 
@@ -467,6 +480,7 @@ TODO: Give an overall summary here too
 
 -   TotalTransacrtionValue - This is a spelling mistake, we have opted not to change it as all our dashboards are built and it could break the world!
 -   The tooltip on the Azure map component doesn't round the tooltip values like the other charts do.
+-   In Power BI on the second page of the Product Analysis the card for the total number of unique products doesn’t update when the countries are clicked on. This might be to do with the relationships between the tables. 
 
 ## Development Roadmap
 
