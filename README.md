@@ -420,6 +420,8 @@ TODO: Add here!
 ## Conclusions
 
 -   TODO: General Sales trends/Descriptive Stats: Tom
+    -   Looking at the graph of sales per month you can see an initial decrease from December 2010 where total sales were £0.4M to a low in February of £0.28M. There are two more small peaks in sales in March of £0.36M and up to £0.4M in May. Sales remain steady in the summer before a significant increase to £0.56M in September and another increase to £0.81M in November.
+    -   To fully assess whether there are peaks in sales during November and December we would need to consider a larger dataset which includes data from multiple years. At the moment it is hard to tell if the increase in sales in November is seasonal or just represents an increase in sales on this website in general.
 -   Majority of the orders are made at lunch time
     -   The majority of orders were made on Tueesday, Wednesday and Thursday lunch times. Even on the other days, the lunch time period was the buisiest time for that day.
 -   Sunday has less orders than the rest of the week
