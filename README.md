@@ -410,7 +410,8 @@ TODO: Give an overall summary here too
 
 ## Unfixed Bugs
 
--   Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
+- TotalTransacrtionValue - This is a spelling mistake, we have opted not to change it as all our dashboards are built and it could break the world!
+- The tooltip on the Azure map component doesn't round the tooltip values liek the other charts do.
 
 
 ## Development Roadmap
