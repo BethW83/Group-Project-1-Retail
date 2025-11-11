@@ -484,7 +484,6 @@ require a larger, multi-year dataset to confirm. Most orders occur at lunchtime,
 
 -   TotalTransacrtionValue - This is a spelling mistake, we have opted not to change it as all our dashboards are built and it could break the world!
 -   The tooltip on the Azure map component doesn't round the tooltip values like the other charts do.
--   In Power BI on the second page of the Product Analysis the card for the total number of unique products doesn’t update when the countries are clicked on. This might be to do with the relationships between the tables. 
 
 ## Development Roadmap
 
