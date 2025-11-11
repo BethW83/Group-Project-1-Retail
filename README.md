@@ -167,12 +167,13 @@ The dataset contains information on customer transactions made through an online
 
 ## Business Requirements
 
-- TODO: Describe your business requirements
+Analyse online retail transaction data to understand customer behaviour, identify popular products, and optimise pricing and marketing strategies. Develop interactive dashboards to provide insights into customer behaviour, popular products, and pricing strategies to improve sales and marketing efforts.
 
 ## Hypothesis
 
 - TODO: General Sales trends/Descriptive Stats: Tom
 - Majority of the orders are made at lunch time
+- Sunday has less orders than the rest of the week
 - Majority of the orders are made by UK customers
 - Customers make return and make multiple orders
 - TODO: Products: Beth: The top 10 products provide the most revenue
@@ -191,7 +192,18 @@ The dataset contains information on customer transactions made through an online
 
 ## The rationale to map the business requirements to the Data Visualisations
 
--   List your business requirements and a rationale to map them to the Data Visualisations
+- TODO: General Sales trends/Descriptive Stats: Tom
+- Majority of the orders are made at lunch time
+  - Use a heatmap showing weekdays against time of day to show the distribution of ordering tims.
+  - Use a bar chart to visualise the frequency for each time of day.
+- Sunday has less orders than the rest of the week
+  - Use a line chart showing the orders for each day of the week.
+- Majority of the orders are made by UK customers
+  - Add filters across the dashboard to allow filtering on country and continent.
+  - Use a visual map to display the customers location.
+- Customers make return and make multiple orders
+  - Use a bar chart to show the frequency of orders grouped by customer.
+- TODO: Products: Beth: The top 10 products provide the most revenue
 
 ## Analysis techniques used
 
@@ -222,11 +234,7 @@ The dataset contains information on customer transactions made through an online
 
 ## Ethical considerations
 
--   The Customer ID was anonymised. 
--   The data is available publicly on Kaggle and (Tom insert link here)
-
--   Were there any data privacy, bias or fairness issues with the data?
--   How did you overcome any legal or societal issues?
+-   The Customer ID was anonymised. Even though it was only an ID number, we decided that was still traceable back to the individual if we had access to the rest of th companies data. 
 
 ## Dashboard Design
 
@@ -386,8 +394,19 @@ TODO: Add here!
 
 ## Conclusions
 
--
--
+- TODO: General Sales trends/Descriptive Stats: Tom
+- Majority of the orders are made at lunch time
+  - The majority of orders were made on Tueesday, Wednesday and Thursday lunch times. Even on the other days, the lunch time period was the buisiest time for that day.
+- Sunday has less orders than the rest of the week
+ - Sunday had no orders made in the Evening period, and consistently tracked lower across the the date range compared to the other days.
+- Majority of the orders are made by UK customers
+  - 16,585 of the 18,183 orders (91.21%) of orders were to UK based customers.
+- Customers make return and make multiple orders
+  - One customer made 1,358 separate orders with an average return days between purchases of 1.4 days. There were 3 other cusotmers with over 100 orders and another 28 with over 30 orders. When you look at some of the cusotmers with higher return rate, and what they purchase, it very much looks like they are buying products as a wholesaler rather than as an individual. As a future enhancement it would be useful to try and categorise cusotmers in to wholesale and individuals to see how their buying patterns differ.
+- TODO: Products: Beth: The top 10 products provide the most revenue
+
+
+TODO: Give an overall summary here too
 
 ## Unfixed Bugs
 
@@ -396,16 +415,16 @@ TODO: Add here!
 
 ## Development Roadmap
 
+Challenges faced:
 - Power BI stores absolute file paths when importing CSV files which makes it challenging when we all have different enviorments and both PC and MAC. We overcame this by making a single source dataset, connected it via the Web import instead of the File import, using the GitHub raw file links for the CSV files, and then made a single source data Power BI file, published the datset, and then conected oue own copies of a Power BI desktop file to the remote dataset. This enabled all team memebers to work on dashboards separetly but still publish them to the same shared workspace.
 - The main map visualisation options in Power BI were not enabled for our organisation, so we used the Azure map visualisation option instead for mapping.
 - Initially the order of the day parts in the visualisations were not in the correct order, showing lunch, then evening and then morning. We over came this by ading an extra sort column to the day part table and sorting the daypart field by this new order column.
 - We had a few issues with Git getting out of sync and not allowing a team member to switch branch or merge from main. We overcame this as a team, sharing screens and helping each other through the process.
 
--   (if we need something else here, include updating the requirements.txt file?)
--   What challenges did you face, and what strategies were used to overcome these challenges?
--   What new skills or tools do you plan to learn next based on your project experience?
--   Did you recognise gaps in your knowledge, and how did you address them?
--   If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
+Next steps:
+- We decided to drop the cancelled invocies that were marked with a C. We would look to import these as a new fact table and create visualisations for these and analyse the data.
+- Look at replicating the dashboards in Tableau, and create a Streamlit Python interactive dashboard to widen our dashboarding knowledge.
+- Implement RFM (Recency, Frequency and Monetary) analysis to categorise customers based on their purchasing behaviour.
 
 ## Main Data Analysis Libraries
 
