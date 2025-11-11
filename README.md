@@ -398,7 +398,7 @@ TODO: Add here!
 - Majority of the orders are made at lunch time
   - The majority of orders were made on Tueesday, Wednesday and Thursday lunch times. Even on the other days, the lunch time period was the buisiest time for that day.
 - Sunday has less orders than the rest of the week
- - Sunday had no orders made in the Evening period, and consistently tracked lower across the the date range compared to the other days.
+  - Sunday had no orders made in the Evening period, and consistently tracked lower across the the date range compared to the other days.
 - Majority of the orders are made by UK customers
   - 16,585 of the 18,183 orders (91.21%) of orders were to UK based customers.
 - Customers make return and make multiple orders
