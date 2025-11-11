@@ -391,7 +391,23 @@ Once imported, it looked like:
 
 ### **1 Descriptive Statistics and Trend Analysis**
 
-TODO: Add here!
+- [Interactive dashboard link](https://app.powerbi.com/links/Zlk3rGdOeb?ctid=c233c072-135b-431d-af59-35e05babf941&pbi_source=linkShare&bookmarkGuid=a7b00001-6e5a-4409-9965-f26dd0b53efc) - This links only available to Code Institute users, and isn't publically shareable.
+
+- [Link to a PDF of the dashboard](./visualisations/pdfs/1-Descriptive-Statistics-and-Trend-Analysis.pdf)
+
+- <a href="https://screen.studio/share/0a7Dli0d" target="_blank" rel="noopener noreferrer">Dashboard Walkthrough Video</a>
+
+**Descriptive Statistics Trend Analysis page:**
+
+![Descriptive Statistics Trend Analysis page](./images/1-Descriptive-Statistics-and-Trend-Analysis-Descriptive-Statistics-Trend-Analysis.png)
+
+**Cumulative Sales Over Time page:**
+
+![Cumulative Sales Over Time page](./images/1-Descriptive-Statistics-and-Trend-Analysis-Cumulative-Sales-Over-Time.png)
+
+**Sales Dynamic Tooltip page:** - This is used as the tooltip on the Descriptive Statistics Trend Analysis page and isnt intended to be viewed as a standalone page.
+
+![Sales Dynamic Tooltip page](./images/1-Descriptive-Statistics-and-Trend-Analysis-Sales-Dynamic-Tooltip.png)
 
 ### **2 Customer Segmentation and Purchase Behaviour**
 
@@ -415,7 +431,20 @@ TODO: Add here!
 
 ### **3 Product Analysis**
 
-TODO: Add here!
+- [Interactive dashboard link](https://app.powerbi.com/links/NW76oemTmE?ctid=c233c072-135b-431d-af59-35e05babf941&pbi_source=linkShare&bookmarkGuid=fae13035-4d3c-4acf-b78b-2386af9129cd) - This links only available to Code Institute users, and isn't publically shareable.
+
+- [Link to a PDF of the dashboard](./visualisations/pdfs/3-Product-Analysis.pdf)
+
+- <a href="https://screen.studio/share/e0O6KZzb" target="_blank" rel="noopener noreferrer">Dashboard Walkthrough Video</a>
+
+**Top 10 Products page:**
+
+![Top 10 Products page](./images/3-Product-Analysis-Top-10-Products.png)
+
+**Products by Country page:**
+
+![Products by Country page](./images/3-Product-Analysis-Products-by-Country.png)
+
 
 ## Conclusions
 
