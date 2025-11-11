@@ -146,9 +146,9 @@ If you setup a virtual environment then make sure you pick the venv one.
 
 Team Members:
 
--   Beth Williams
--   Pete Smith
--   Tom Burgess
+-   Beth Williams - [https://www.linkedin.com/in/beth-louise-williams](https://www.linkedin.com/in/beth-louise-williams)
+-   Pete Smith - [https://www.linkedin.com/in/petedanielsmith](https://www.linkedin.com/in/petedanielsmith)
+-   Tom Burgess - [https://www.linkedin.com/in/tom-burgess-986557383](https://www.linkedin.com/in/tom-burgess-986557383)
 
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
@@ -442,11 +442,15 @@ Once imported, it looked like:
 
 - [Link to a PDF of the dashboard](./visualisations/pdfs/3-Product-Analysis.pdf)
 
-- <a href="https://screen.studio/share/e0O6KZzb" target="_blank" rel="noopener noreferrer">Dashboard Walkthrough Video</a>
+- <a href="https://screen.studio/share/5SXA8Onc" target="_blank" rel="noopener noreferrer">Dashboard Walkthrough Video</a>
 
 **Top 10 Products page:**
 
 ![Top 10 Products page](./images/3-Product-Analysis-Top-10-Products.png)
+
+**Bottom 10 Products page:**
+
+![Bottom 10 Products page](./images/3-Product-Analysis-Bottom-10-Products.png)
 
 **Products by Country page:**
 
@@ -484,7 +488,6 @@ require a larger, multi-year dataset to confirm. Most orders occur at lunchtime,
 
 -   TotalTransacrtionValue - This is a spelling mistake, we have opted not to change it as all our dashboards are built and it could break the world!
 -   The tooltip on the Azure map component doesn't round the tooltip values like the other charts do.
--   In Power BI on the second page of the Product Analysis the card for the total number of unique products doesn’t update when the countries are clicked on. This might be to do with the relationships between the tables. 
 
 ## Development Roadmap
 
