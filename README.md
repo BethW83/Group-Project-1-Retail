@@ -442,7 +442,7 @@ Once imported, it looked like:
 
 - [Link to a PDF of the dashboard](./visualisations/pdfs/3-Product-Analysis.pdf)
 
-- <a href="https://screen.studio/share/e0O6KZzb" target="_blank" rel="noopener noreferrer">Dashboard Walkthrough Video</a>
+- <a href="https://screen.studio/share/udh4kbvq" target="_blank" rel="noopener noreferrer">Dashboard Walkthrough Video</a>
 
 **Top 10 Products page:**
 
