@@ -468,10 +468,10 @@ Once imported, it looked like:
     -   One customer made 1,358 separate orders with an average return days between purchases of 1.4 days. There were 3 other customers with over 100 orders and another 28 with over 30 orders. When you look at some of the customers with higher return rate, and what they purchase, it very much looks like they are buying products as a wholesaler rather than as an individual. As a future enhancement it would be useful to try and categorise customers in to wholesale and individuals to see how their buying patterns differ.
 
 -   Product Analysis: 
-   -   The filters to the right of the dashboard can be used to show the top 10 products per month. This provides insights into the type of products purchased seasonally. For example bunting is popular in the summer months and as the weather cools more night lights and hot water bottles are sold.
-   -   There are 3609 unique products (by stock code), with the bottom 5 products only selling once.
-   -   The date range can be set to go up to and including 30/11/2011 to ensure that one year’s data is showing (to avoid two Decembers, where the second December only has data for 8 days).
-   -   It is immediately clear that the majority of the sales come from the UK. The second dashboard shows the top 20 countries for the quantity of products, with the remaining 18 countries making up the rest of the stock sold. 
+    -   The filters to the right of the dashboard can be used to show the top 10 products per month. This provides insights into the type of products purchased seasonally. For example bunting is popular in the summer months and as the weather cools more night lights and hot water bottles are sold.
+    -   There are 3609 unique products (by stock code), with the bottom 5 products only selling once.
+    -   The date range can be set to go up to and including 30/11/2011 to ensure that one year’s data is showing (to avoid two Decembers, where the second December only has data for 8 days).
+    -   It is immediately clear that the majority of the sales come from the UK. The second dashboard shows the top 20 countries for the quantity of products, with the remaining 18 countries making up the rest of the stock sold. 
 
 
 TODO: Give an overall summary here too
