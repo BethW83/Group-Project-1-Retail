@@ -204,7 +204,7 @@ The project follows the following steps:
 -   Majority of the orders are made by UK customers
     -   Add filters across the dashboard to allow filtering on country and continent.
     -   Use a visual map to display the customers location.
--   Customers make return and make multiple orders
+-   Customers make return visits and make multiple orders
     -   Use a bar chart to show the frequency of orders grouped by customer.
 
 -   Products Analysis: 
@@ -398,7 +398,7 @@ Once imported, it looked like:
 
 ### **1 Descriptive Statistics and Trend Analysis**
 
-- [Interactive dashboard link](https://app.powerbi.com/links/Zlk3rGdOeb?ctid=c233c072-135b-431d-af59-35e05babf941&pbi_source=linkShare&bookmarkGuid=a7b00001-6e5a-4409-9965-f26dd0b53efc) - This links only available to Code Institute users, and isn't publically shareable.
+- [Interactive dashboard link](https://app.powerbi.com/links/Zlk3rGdOeb?ctid=c233c072-135b-431d-af59-35e05babf941&pbi_source=linkShare) - This links only available to Code Institute users, and isn't publically shareable.
 
 - [Link to a PDF of the dashboard](./visualisations/pdfs/1-Descriptive-Statistics-and-Trend-Analysis.pdf)
 
@@ -438,7 +438,7 @@ Once imported, it looked like:
 
 ### **3 Product Analysis**
 
-- [Interactive dashboard link](https://app.powerbi.com/links/NW76oemTmE?ctid=c233c072-135b-431d-af59-35e05babf941&pbi_source=linkShare&bookmarkGuid=fae13035-4d3c-4acf-b78b-2386af9129cd) - This links only available to Code Institute users, and isn't publically shareable.
+- [Interactive dashboard link](https://app.powerbi.com/links/NW76oemTmE?ctid=c233c072-135b-431d-af59-35e05babf941&pbi_source=linkShare) - This links only available to Code Institute users, and isn't publically shareable.
 
 - [Link to a PDF of the dashboard](./visualisations/pdfs/3-Product-Analysis.pdf)
 
@@ -455,7 +455,7 @@ Once imported, it looked like:
 
 ## Conclusions
 
--   TODO: General Sales trends/Descriptive Stats: Tom
+-   Seasonal increase in sales
     -   Looking at the graph of sales per month you can see an initial decrease from December 2010 where total sales were £0.4M to a low in February of £0.28M. There are two more small peaks in sales in March of £0.36M and up to £0.4M in May. Sales remain steady in the summer before a significant increase to £0.56M in September and another increase to £0.81M in November.
     -   To fully assess whether there are peaks in sales during November and December we would need to consider a larger dataset which includes data from multiple years. At the moment it is hard to tell if the increase in sales in November is seasonal or just represents an increase in sales on this website in general.
 -   Majority of the orders are made at lunch time
