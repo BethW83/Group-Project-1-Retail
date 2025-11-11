@@ -192,7 +192,10 @@ The prjoject follows the following steps:
 
 ## The rationale to map the business requirements to the Data Visualisations
 
--   TODO: General Sales trends/Descriptive Stats: Tom
+-   Seasonal increase in sales
+    -   Observing and understanding sales trends allows a company to monitor growth as well as changes in market and customer behaviour over time. It allows the company to forecast sales and provides the marketing team with insight on when to focus marketing campaigns. It also allows the company to look to the past and benchmark their progress over time.
+    -   Bar chart to show sales over time, with capability to drill down into different time periods
+    -   Line chart to show cumulative sales over time
 -   Majority of the orders are made at lunch time
     -   Use a heatmap showing weekdays against time of day to show the distribution of ordering tims.
     -   Use a bar chart to visualise the frequency for each time of day.
