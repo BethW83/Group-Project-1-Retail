@@ -197,7 +197,7 @@ The prjoject follows the following steps:
     -   Bar chart to show sales over time, with capability to drill down into different time periods
     -   Line chart to show cumulative sales over time
 -   Majority of the orders are made at lunch time
-    -   Use a heatmap showing weekdays against time of day to show the distribution of ordering tims.
+    -   Use a heatmap showing weekdays against time of day to show the distribution of ordering time.
     -   Use a bar chart to visualise the frequency for each time of day.
 -   Sunday has less orders than the rest of the week
     -   Use a line chart showing the orders for each day of the week.
@@ -220,27 +220,27 @@ The prjoject follows the following steps:
 
 2. Limitations & Alternatives:
 
-    - Limited data points availble in the csv, especially with the product data, it only had product code and description which limited how we could report on products.
+    - Limited data points available in the csv, especially with the product data, it only had product code and description which limited how we could report on products.
     - There was no data for Saturdays.
     - There was no cost price so we couldn't report on margins etc.
 
 3. Structure Justification:
 
-    - Data cleanup and transform notebook as the first part.
+    - Data clean up and transform notebook as the first part.
     - Created a shared published Source Data in star diagram format.
     - Created a Power BI dashboard visualisation file for each team member, pulling from the single shared source data.
 
 4. Use of Generative AI:
 
-    - AI supported: GitHub copilot extention was installed and so did speed up some repetative tasks.
+    - AI supported: GitHub copilot extension was installed and so did speed up some repetitive tasks.
 
 ## Ethical considerations
 
--   The Customer ID was anonymised. Even though it was only an ID number, we decided that was still traceable back to the individual if we had access to the rest of th companies data.
+-   The Customer ID was anonymised. Even though it was only an ID number, we decided that was still traceable back to the individual if we had access to the rest of the companies data.
 
 ## Dashboard Design
 
-After the data cleanup, we exported five CSV files via Python to be imported in to Power BI which are setup as a star data structure:
+After the data clean up, we exported five CSV files via Python to be imported in to Power BI which are setup as a star data structure:
 
 <p align="center">
 <img src="./images/spider_diagram.png" alt="Spider diagram of data structure" width="50%" />
@@ -248,9 +248,9 @@ After the data cleanup, we exported five CSV files via Python to be imported in 
 
 In the `/visualisations` folder we created four Power BI Desktop files:
 
--   `SharedDataset.pbix` - This is the file that imports the CSV files. As all team members folder location is different on their local development, we import the CSV files from this GitHub repository raw links using the Web import rather than the File import. This allows all team members to open and edit the file without modifying each time. All extra columns and measures were added to this file, then the data published to our shared Power BI workspace. The other three files then directly connect to this published dataset, so there is a single source of truth for the data that we all shared. We could then individually work on the following dashboard files separetly without conflicts, while still publishing the dashboards to the same shared workspace.
+-   `SharedDataset.pbix` - This is the file that imports the CSV files. As all team members folder location is different on their local development, we import the CSV files from this GitHub repository raw links using the Web import rather than the File import. This allows all team members to open and edit the file without modifying each time. All extra columns and measures were added to this file, then the data published to our shared Power BI workspace. The other three files then directly connect to this published dataset, so there is a single source of truth for the data that we all shared. We could then individually work on the following dashboard files separately without conflicts, while still publishing the dashboards to the same shared workspace.
 -   `1-Descriptive-Statistics-and-Trend-Analysis.pbix` - This is the visualisations for the sales and descriptive statistics dashboard.
--   `2-Customer-Segmentation-and-Purchase-Behaviour.pbix` - This is the visualisations for the cusotmer behaviour dashboard.
+-   `2-Customer-Segmentation-and-Purchase-Behaviour.pbix` - This is the visualisations for the customer behaviour dashboard.
 -   `3-Product-Analysis.pbix` - This is the visualisations for the product dashboard.
 
 **DAX Measures and Columns**
@@ -365,7 +365,7 @@ CALCULATE(
 )
 ```
 
--   Total Cusotmers - number of distinct cusotmers:
+-   Total Customers - number of distinct customers:
 
 ```
 Total Customers =
@@ -387,7 +387,7 @@ SUM(FactSales[TotalTransacrtionValue])
 ```
 
 Once imported, it looked like:
-![Power BI Relashionship Diagram](./images/power-bi-relashionship-diagram.png)
+![Power BI Relationship Diagram](./images/power-bi-relashionship-diagram.png)
 
 ### **1 Descriptive Statistics and Trend Analysis**
 
@@ -423,13 +423,13 @@ TODO: Add here!
     -   Looking at the graph of sales per month you can see an initial decrease from December 2010 where total sales were £0.4M to a low in February of £0.28M. There are two more small peaks in sales in March of £0.36M and up to £0.4M in May. Sales remain steady in the summer before a significant increase to £0.56M in September and another increase to £0.81M in November.
     -   To fully assess whether there are peaks in sales during November and December we would need to consider a larger dataset which includes data from multiple years. At the moment it is hard to tell if the increase in sales in November is seasonal or just represents an increase in sales on this website in general.
 -   Majority of the orders are made at lunch time
-    -   The majority of orders were made on Tueesday, Wednesday and Thursday lunch times. Even on the other days, the lunch time period was the buisiest time for that day.
+    -   The majority of orders were made on Tuesday, Wednesday and Thursday lunch times. Even on the other days, the lunch time period was the busiest time for that day.
 -   Sunday has less orders than the rest of the week
     -   Sunday had no orders made in the Evening period, and consistently tracked lower across the the date range compared to the other days.
 -   Majority of the orders are made by UK customers
     -   16,585 of the 18,183 orders (91.21%) of orders were to UK based customers.
 -   Customers make return and make multiple orders
-    -   One customer made 1,358 separate orders with an average return days between purchases of 1.4 days. There were 3 other cusotmers with over 100 orders and another 28 with over 30 orders. When you look at some of the cusotmers with higher return rate, and what they purchase, it very much looks like they are buying products as a wholesaler rather than as an individual. As a future enhancement it would be useful to try and categorise cusotmers in to wholesale and individuals to see how their buying patterns differ.
+    -   One customer made 1,358 separate orders with an average return days between purchases of 1.4 days. There were 3 other customers with over 100 orders and another 28 with over 30 orders. When you look at some of the customers with higher return rate, and what they purchase, it very much looks like they are buying products as a wholesaler rather than as an individual. As a future enhancement it would be useful to try and categorise customers in to wholesale and individuals to see how their buying patterns differ.
 -   TODO: Products: Beth: The top 10 products provide the most revenue
 
 TODO: Give an overall summary here too
@@ -437,22 +437,22 @@ TODO: Give an overall summary here too
 ## Unfixed Bugs
 
 -   TotalTransacrtionValue - This is a spelling mistake, we have opted not to change it as all our dashboards are built and it could break the world!
--   The tooltip on the Azure map component doesn't round the tooltip values liek the other charts do.
+-   The tooltip on the Azure map component doesn't round the tooltip values like the other charts do.
 
 ## Development Roadmap
 
 Challenges faced:
 
--   Power BI stores absolute file paths when importing CSV files which makes it challenging when we all have different enviorments and both PC and MAC. We overcame this by making a single source dataset, connected it via the Web import instead of the File import, using the GitHub raw file links for the CSV files, and then made a single source data Power BI file, published the datset, and then conected oue own copies of a Power BI desktop file to the remote dataset. This enabled all team memebers to work on dashboards separetly but still publish them to the same shared workspace.
+-   Power BI stores absolute file paths when importing CSV files which makes it challenging when we all have different environments and both PC and MAC. We overcame this by making a single source dataset, connected it via the Web import instead of the File import, using the GitHub raw file links for the CSV files, and then made a single source data Power BI file, published the dataset, and then connected our own copies of a Power BI desktop file to the remote dataset. This enabled all team members to work on dashboards separately but still publish them to the same shared workspace.
 -   The main map visualisation options in Power BI were not enabled for our organisation, so we used the Azure map visualisation option instead for mapping.
--   Initially the order of the day parts in the visualisations were not in the correct order, showing lunch, then evening and then morning. We over came this by ading an extra sort column to the day part table and sorting the daypart field by this new order column.
+-   Initially the order of the day parts in the visualisations were not in the correct order, showing lunch, then evening and then morning. We over came this by adding an extra sort column to the day part table and sorting the daypart field by this new order column.
 -   We had a few issues with Git getting out of sync and not allowing a team member to switch branch or merge from main. We overcame this as a team, sharing screens and helping each other through the process.
 -   There was no data recorded at all for Saturday.
 -   The last month of the data was only a few days in December 2011, so the charts all dipped down at the end when reporting by month as it didn't have a comparable full month of data. We added date sliders to allow users to easily exclude the end few days if required.
 
 Next steps:
 
--   We decided to drop the cancelled invocies that were marked with a C. We would look to import these as a new fact table and create visualisations for these and analyse the data.
+-   We decided to drop the cancelled invoices that were marked with a C. We would look to import these as a new fact table and create visualisations for these and analyse the data.
 -   Look at replicating the dashboards in Tableau, and create a Streamlit Python interactive dashboard to widen our dashboarding knowledge.
 -   Implement RFM (Recency, Frequency and Monetary) analysis to categorise customers based on their purchasing behaviour.
 -   Investigate products that are frequently bought together, to enable the marketing team to implement product recommendations for products other customers also bought when items are added to basket.
@@ -462,13 +462,13 @@ Next steps:
 -   `Pandas` - For cleaning the data and EDA.
 -   `Seaborn` - For visualising the data in the Jupyter Notebook.
 -   `Matplotlib` - For formatting the Seaborn charts and adding titles and labels.
--   `Power BI` - For creating the interactive dashobards.
+-   `Power BI` - For creating the interactive dashboards.
 
 ## Credits
 
 ### Content
 
--   [Code institute](https://codeinstitute.net/) - The intial project structure.
+-   [Code institute](https://codeinstitute.net/) - The initial project structure.
 -   [Kaggle](https://www.kaggle.com/) - Providing the data set used.
 -   [Machine Learning Repository](https://archive.ics.uci.edu/dataset/352/online+retail) - More info on the dataset that explained the 'C' - Cancelled invoices.
 -   [ChatGPT](https://chatgpt.com/) - Help overcoming Git issues.
