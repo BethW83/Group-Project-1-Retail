@@ -429,6 +429,7 @@ Next steps:
 - We decided to drop the cancelled invocies that were marked with a C. We would look to import these as a new fact table and create visualisations for these and analyse the data.
 - Look at replicating the dashboards in Tableau, and create a Streamlit Python interactive dashboard to widen our dashboarding knowledge.
 - Implement RFM (Recency, Frequency and Monetary) analysis to categorise customers based on their purchasing behaviour.
+- Investigate products that are frequently bought together, to enable the marketing team to implement product recommendations for products other customers also bought when items are added to basket.
 
 ## Main Data Analysis Libraries
 
